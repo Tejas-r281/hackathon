@@ -9,7 +9,7 @@
  
  
  ![This is result page ]( ./image/details.png)
- On this page we can watch all stuff related to rich come on .
+ On this page we can watch all stuff related to rice  .
  
  
  
