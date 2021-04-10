@@ -1,0 +1,89 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* site name css start
+*/
+.site-name {
+    width:100 vw;
+    height:15 vh;
+    background:green;
+}
+.site-name>.name{
+    text-align:center;
+}
+/* site name css end */
+
+/* home css of home part start */
+.home{
+    margin-top:-10px;
+    width:100 vw;
+    max-height:85vh;
+    min-height: 70vh;
+    /* background:blue; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    position: relative;
+
+
+}
+.home::after{
+    content:"";
+    position:absolute;
+    background:url("./background.jpg");
+    position: absolute;
+    object-fit:contain;
+    object-position: 100% 100%;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+    z-index: -1;
+    mask-image: linear-gradient(to bottom, rgba(0 ,0,0,0.4),rgba(25, 25, 216, 0));
+
+
+}
+.search{
+    width: 40%;
+}
+.search>h1{
+    color: black;
+    font-weight: 800;
+}
+.upper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* background-color: red; */
+}
+.search1{
+    border-radius: 10px;
+    width:80%;
+    height:40px;
+    margin-top: 20px;
+}
+.boxes{
+    width:100vw;
+    height:auto ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    margin-top:100px;
+}
+.box{
+    height:200px;
+    width:250px;
+    background-color:red;
+    margin: 10px;
+}
+.one1{
+   margin-right: 10vw;
+}
